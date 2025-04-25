@@ -1,0 +1,89 @@
+
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+
+
+
+/media/*
+!/media/.gitignore
+
+
+**/migrations/*
+!**/migrations/
+!**/migrations/__init__.py
+
+
+
+# Cython debug symbols
+cython_debug/
+
+
+# Virtual environment folders
+.env
+.env/
+.venv/
+env/
+venv/
+ENV/
+VENV/
+
+
+# IDEs and editors
+.idea/
+.vscode/
+
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# Test and coverage reports
+*.cover
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+
+# pyenv
+.python-version
+
+
+# pipenv
+Pipfile.lock
+
+
+# tox
+.tox/
+
+
+# pytest
+.cache/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.dmypy.json.
+
+
+# PyInstaller
+*.manifest
+*.spec
+
+
+# VS Code settings
+.vscode/
